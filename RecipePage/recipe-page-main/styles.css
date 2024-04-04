@@ -1,0 +1,119 @@
+.attribution {
+  font-size: 11px;
+  text-align: center;
+}
+.attribution a {
+  color: hsl(228, 45%, 44%);
+}
+
+@font-face {
+  font-family: outfit;
+  src: url("./assets/fonts/outfit/Outfit-VariableFont_wght.ttf");
+}
+
+@font-face {
+  font-family: young-serif;
+  src: url("./assets/fonts/young-serif/YoungSerif-Regular.ttf");
+}
+
+body {
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  background-color: hsl(30, 54%, 90%);
+  margin: 0;
+}
+main {
+  width: 60%;
+  margin: 3rem;
+  padding: 2rem;
+  border-radius: 2rem;
+
+  font-family: outfit;
+  color: hsl(24, 5%, 18%);
+  background-color: hsl(0, 0%, 100%);
+}
+
+/* Misc */
+img {
+  width: 100%;
+  border-radius: 1rem;
+}
+hr {
+  width: 100%;
+}
+
+/* Sections */
+section {
+  margin-top: 1.5rem;
+  margin-bottom: 1.5rem;
+}
+section.time {
+  padding: 1rem;
+  background-color: hsl(330, 100%, 98%);
+  border-radius: 1rem;
+}
+
+/* Text */
+h1 {
+  padding: 0px;
+  margin: 0px;
+
+  font-family: young-serif;
+  font-weight: 400;
+  font-size: 2.5rem;
+}
+h2 {
+  padding: 0px;
+  margin: 0px;
+
+  font-family: young-serif;
+  font-weight: 700;
+  font-size: 1.5rem;
+  color: hsl(30, 10%, 34%);
+}
+h3 {
+  padding: 0px;
+  margin: 0px;
+
+  color: hsl(30, 10%, 34%);
+  font-weight: 700;
+}
+
+/* Lists */
+.time ul {
+  margin: 0px;
+}
+li {
+  padding: 0.5rem;
+}
+
+/* Tables */
+table {
+  border-collapse: collapse;
+  width: 100%;
+}
+tr {
+  border-bottom: 1px solid hsl(24, 5%, 18%);
+}
+td {
+  padding: 1rem 2rem 1rem 2rem;
+}
+td:nth-child(2) {
+  color: hsl(30, 10%, 34%);
+  font-weight: 700;
+}
+
+/* Media Queries */
+@media (max-width: 400px) {
+  main {
+    width: 100%;
+    margin: 0rem;
+    border-radius: 0rem;
+  }
+  img {
+    width: 100%;
+    border-radius: 0rem;
+  }
+}
